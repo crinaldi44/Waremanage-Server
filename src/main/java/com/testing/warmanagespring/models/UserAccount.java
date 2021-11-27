@@ -2,6 +2,10 @@ package com.testing.warmanagespring.models;
 
 import javax.persistence.*;
 
+/**
+ * A user account is a profile accessed by an end-user and is identified by a unique ID.
+ * Users are given a unique username, password, and associated privilege level.
+ */
 @Entity
 @Table(name="user_account")
 public class UserAccount {

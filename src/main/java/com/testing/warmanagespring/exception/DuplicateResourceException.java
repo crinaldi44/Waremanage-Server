@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
  * A DuplicateResourceException is thrown if the target resource currently
  * exists on the server. Common use cases include attempting to create a user with
  * a specified username which already exists.
- * @ResponseStatus HttpStatus.CONFLICT
+ * @ResponseStatus HttpStatus.CONFLICT 409
  */
 @ResponseStatus(HttpStatus.CONFLICT)
 public class DuplicateResourceException extends RuntimeException {
