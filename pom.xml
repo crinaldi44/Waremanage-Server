@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.testing</groupId>
-    <artifactId>WarmanageSpring</artifactId>
+    <artifactId>WaremanageSpring</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>WarmanageSpring</name>
-    <description>WarmanageSpring</description>
+    <name>WaremanageSpring</name>
+    <description>WaremanageSpring</description>
     <properties>
         <java.version>11</java.version>
     </properties>
